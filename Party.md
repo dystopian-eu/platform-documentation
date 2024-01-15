@@ -45,7 +45,7 @@
 
     - status: A varchar(50) field to denote the current status of the party. This could include values like 'active', 'inactive', 'suspended', etc.
 
-*Table: Party_Metadata*
+**Table: Party_Metadata**
 
     - party_id: This is a foreign key to the Party table, establishing a one-to-one relationship. Each record in the Party_Metadata table corresponds to a record in the Party table. It's the primary key of this table as well.
 
@@ -75,5 +75,19 @@ CREATE TABLE "lagertha_party"."Party_Metadata" (
 	party_id bigint primary key not NULL,
 	metadata jsonb NULL
 );
+
+```
+
+
+**Party_type**
+--
+Allowable Values
+
+- PERSONAL
+- NON_PERSONAL
+
+**Contracts List**
+--
+```
 
 ```
