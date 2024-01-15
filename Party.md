@@ -1,4 +1,4 @@
-
+# Party
 
 Party as a Person
 
@@ -53,7 +53,9 @@ Table: Party_Metadata
 
 
 
-Based Table defintion :
+**Based Table defintion :**
+
+```
 
 CREATE TABLE "lagertha_party"."Party" (
 	party_id bigint primary key not NULL,
@@ -73,3 +75,5 @@ CREATE TABLE "lagertha_party"."Party_Metadata" (
 	party_id bigint primary key not NULL,
 	metadata jsonb NULL
 );
+
+```
