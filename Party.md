@@ -45,6 +45,10 @@
 
     - status: A varchar(50) field to denote the current status of the party. This could include values like 'active', 'inactive', 'suspended', etc.
 
+    - Metadata: Model extension to allow the adding of characteristics for the Party or Entity. This is a key value Pair Model.
+
+    
+
 **Table: Party_Metadata**
 
     - party_id: This is a foreign key to the Party table, establishing a one-to-one relationship. Each record in the Party_Metadata table corresponds to a record in the Party table. It's the primary key of this table as well.

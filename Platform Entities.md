@@ -6,10 +6,16 @@
   
 - *Account*: An account is a record holding all the attributes and transaction history of a party. It may include identifiers, balance information, transaction history, and other metadata. In blockchain platforms, this could also refer to a wallet address.
 - *Service*:
+
 - *Map*:
+
 - *Asset*:
+
 - *Transaction*:
+
 - *Transaction Log*: 
-- Relationship
-- Document 
+
+- *Relationship*
+
+- *Document*
   
