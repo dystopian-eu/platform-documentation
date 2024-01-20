@@ -1,3 +1,4 @@
+
 # The Main data entities of the platform are
 
 - *Party*: A party represents an entity involved in the platform. It can be a user, organization, or system component. In a distributed system, a party is typically identified by a unique identifier and can have roles and permissions assigned.
